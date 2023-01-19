@@ -9,7 +9,7 @@
   import Icon from "./Icon.svelte";
   import HSVPicker from "./HSVColourPicker.svelte";
 
-  export let id = 'UID-'+Math.random();
+  export let id = 'UID-'+Math.random()*999999|0;
   export let value = "#5E7ABC";
 
   let editMode=false;
@@ -185,6 +185,13 @@ function clickOutside(node) {
       )
     }
   }
+	document.addEventListener('click', handleClick, true);
+  
+  return {
+    destroy() {
+      document.removeEventListener('click', handleClick, true);
+    }
+	}
 }
 
 </script>
