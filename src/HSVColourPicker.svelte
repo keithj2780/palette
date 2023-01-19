@@ -338,7 +338,6 @@ function rgbToHSV(r, g, b, update) {
 <style>
     .main-container {
         width: 240px;
-/*         height: 200px; */
         background: #f2f2f2;
         border-radius: 1px;
         box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.51);
@@ -475,8 +474,6 @@ function rgbToHSV(r, g, b, update) {
         border-radius: 2px;
         padding: 2px;
         border: 1px solid #e3e3e3;
-/*         height: 16px;
-        width: 54px; */
         vertical-align: top;
         text-align: center;
 			margin: 2px 0;
@@ -500,20 +497,11 @@ function rgbToHSV(r, g, b, update) {
         vertical-align: top;
     }
     
-    .text-label {
-        position: relative;
-        top: -12px;
-        font-family: sans-serif;
-        font-size: small;
-      color:#888;
-    }
-    
     .text {
         display: inline;
         font-family: sans-serif;
         margin: 0;
         display: inline-block;
-/*         font-size-adjust: 0.50; */
         position: relative;
         top: -1px;
         user-select: all;

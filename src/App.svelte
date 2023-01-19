@@ -1,5 +1,5 @@
 <script>
-	let name = 'world';
+	//	https://github.com/keithj2780/svelte-editable-palette
 	import HSVColourPicker from './HSVColourPicker.svelte';
 	import ColourPicker from './ColourPicker.svelte';
 	
