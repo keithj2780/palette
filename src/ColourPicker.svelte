@@ -164,6 +164,7 @@
     str += toHex(e.b);
     value=str;
     paletteValues[editedIndex]=value;
+		dispatch('change',value);
   }
   function onEditPaletteColour(e) {
     //console.log('onEditColour',e,editedIndex);
